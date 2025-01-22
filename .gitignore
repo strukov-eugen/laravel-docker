@@ -1,0 +1,13 @@
+# Исключение временных и локальных файлов
+.env
+node_modules
+vendor
+docker/php/logs/
+storage/*
+!storage/.gitignore
+bootstrap/cache/*
+!bootstrap/cache/.gitignore
+
+# Логи и временные файлы
+*.log
+*.tmp
